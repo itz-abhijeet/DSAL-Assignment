@@ -17,7 +17,7 @@ public class DecisionTree {
         Scanner sc = new Scanner(System.in);
 
         // Build Decision Tree
-
+        
         Node root = new Node("Do you prefer Science?");
         root.yes = new Node("Do you prefer Computers?");
         root.no = new Node("Do you prefer Arts?");
